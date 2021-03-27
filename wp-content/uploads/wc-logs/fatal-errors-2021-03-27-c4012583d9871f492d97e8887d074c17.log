@@ -1,0 +1,323 @@
+2021-03-27T03:55:22+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(82): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action), Object(ActionScheduler_DateTime))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(68): ActionScheduler_Abstract_QueueRunner->schedule_next_instance(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(80): ActionScheduler_Abstract_QueueRunner->process_action('803')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\Action in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:55:32+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817332, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817332, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:56:00+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817360, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817360, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:56:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817385, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817385, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:56:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817415, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817415, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:57:24+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817444, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817444, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:57:49+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817469, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817469, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:58:11+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817491, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817491, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:58:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817515, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817515, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:58:54+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in H:\data\htdocs\ngocbook\wp-includes\wp-db.php on line 2007
+
+2021-03-27T03:59:05+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817544, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817544, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:59:36+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817576, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817576, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T03:59:56+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817596, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817596, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:00:26+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817626, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817626, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:00:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817655, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817655, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:01:20+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817680, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817680, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:01:41+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817701, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817701, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:02:04+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817724, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817724, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:02:37+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817757, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817757, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:02:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817775, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817775, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:03:27+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817807, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817807, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:03:53+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817833, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817833, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:04:39+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817879, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817879, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:05:06+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817906, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817906, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:05:36+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817936, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817936, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:06:05+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817965, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817965, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:06:32+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616817992, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616817992, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:06:55+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818015, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818015, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:07:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818045, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818045, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:07:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818074, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818074, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:08:19+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818099, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818099, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:08:41+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818121, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818121, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:09:12+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818152, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818152, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:09:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818175, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818175, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:10:05+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818205, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818205, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:10:35+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818235, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818235, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:11:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818285, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818285, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:11:50+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818310, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818310, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:12:25+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818345, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818345, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:12:54+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818374, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818374, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T04:13:24+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616818404, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616818404, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T06:30:39+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(82): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action), Object(ActionScheduler_DateTime))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(68): ActionScheduler_Abstract_QueueRunner->schedule_next_instance(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(80): ActionScheduler_Abstract_QueueRunner->process_action('803')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\Action in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T06:30:46+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616826646, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616826646, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T06:31:15+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616826675, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616826675, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T06:31:46+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1616826706, 3600, 'wc-admin-notes')
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php(58): as_schedule_recurring_action(1616826706, 3600, 'wc_admi in H:\data\htdocs\ngocbook\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2021-03-27T08:05:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in H:\data\htdocs\ngocbook\wp-includes\wp-db.php on line 2007
+
+2021-03-27T09:29:06+00:00 CRITICAL Uncaught Error: Call to undefined method YITH_Woocompare_Admin::list_products_html() in H:\data\htdocs\ngocbook\wp-content\plugins\yith-woocommerce-compare\widgets\class.yith-woocompare-widget.php:47
+Stack trace:
+#0 H:\data\htdocs\ngocbook\wp-content\plugins\elementor\includes\widgets\wordpress.php(262): YITH_Woocompare_Widget->widget(Array, Array)
+#1 H:\data\htdocs\ngocbook\wp-content\plugins\elementor\includes\base\widget-base.php(448): Elementor\Widget_WordPress->render()
+#2 H:\data\htdocs\ngocbook\wp-content\plugins\elementor\core\base\document.php(211): Elementor\Widget_Base->render_content()
+#3 H:\data\htdocs\ngocbook\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 H:\data\htdocs\ngocbook\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Cor in H:\data\htdocs\ngocbook\wp-content\plugins\yith-woocommerce-compare\widgets\class.yith-woocompare-widget.php on line 47
+
+2021-03-27T09:53:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in H:\data\htdocs\ngocbook\wp-includes\wp-db.php on line 2007
+
